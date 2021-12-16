@@ -6,8 +6,8 @@ let somma = 0; // dichiarazione somma
 let i = 0; // dichiarazione "i" per contatore
 
 while(somma < 50){ //while per controllo max 50 numero
-    const n = parseInt(prompt("inserire numero")); // input operatore via prompt
-    vuotoArr.push(n); // aggiunta nell'array attraverso il push
+    const number = parseInt(prompt("inserire numero")); // input operatore via prompt
+    vuotoArr.push(number); // aggiunta nell'array attraverso il push
     somma += vuotoArr[i]; //somma dell'input con il valore nell'array
     i++; //aumento contatore
     console.log(somma); //stampo valore di somma ogni volta che si ripete il ciclo
