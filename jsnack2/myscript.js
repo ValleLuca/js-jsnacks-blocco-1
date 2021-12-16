@@ -12,9 +12,9 @@ for(let i = 0; i < datoN; i++){ //ciclo per più array
     let newArr = []; //creo una nuova array
 
     for(let i2 = 0; i2 < 10; i2++){ //per generare numeri random e aggiungerli
-        let x = Math.floor((Math.random() * 100) + 1);
-        newArr.push(x);
+        let x = Math.floor((Math.random() * 100) + 1); //generatore di numeri random
+        newArr.push(x); //push nell'array
     }
-    console.log(newArr);
+    console.log(newArr); //stampo risultato in console
     
 }
